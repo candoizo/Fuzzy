@@ -17,7 +17,7 @@ static void prefsCallback(CFNotificationCenterRef center, void *observer, CFStri
 %end
 
 %hook SpringBoard
--(void)applicationDidFinishLaunching:(id)arg1 {%orig; loadPreferences();} //lol i was high when i wrote this and now i remember this could/should be in the ctor ayy
+-(void)applicationDidFinishLaunching:(id)arg1 {%orig; loadPreferences();} //lol i was high when i wrote this and now i remember this could/should be in the ctor ayy, but in the grand scheme i dont see it mattering
 %end
 
 %ctor {
