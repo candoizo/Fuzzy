@@ -1,0 +1,9 @@
+Package: ca.ndoizo.fuzzy
+Name: Fuzzy
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Blur the Lockscreen wallpaper while notifications exist on iOS 10.
+Maintainer: candoizo
+Author: candoizo
+Section: Tweaks

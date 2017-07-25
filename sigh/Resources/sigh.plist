@@ -1,0 +1,29 @@
+title = "Fuzzy";
+items = (
+{
+    entry = {
+	bundle = sigh;
+	cell = PSSegmentCell;
+  key = "style";
+  default = 3;
+  defaults = ca.ndoizo.sigh;
+	isController = 1;
+	//label = "🍑 Notification Wallpaper Style";
+  PostNotification = "ca.ndoizo.sigh.changed";
+  validValues = (
+			2,
+			3,
+      4,
+      5,
+      6
+		);
+		validTitles = (
+			"Disable Fuzzy",
+			"Vibrant",
+      "Light",
+      "Vibrant Dark",
+      "Dark"
+		);
+    };
+}
+);
